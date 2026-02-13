@@ -3,7 +3,6 @@ import os
 import time
 
 from app.ui.display import render_display
-from .app import run
 
 
 def parse_args():

@@ -4,12 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "process-monitor"
-version = "1.0.0"
+version = "1.1.0"
 description = "CLI resource monitoring tool"
 requires-python = ">=3.9"
 dependencies = [
-    "psutil",
-    "rich"
+    "psutil"
 ]
 
 [project.scripts]

@@ -18,7 +18,7 @@ def render_display():
     print("\n--- CPU Data ---")
     cpu_data = get_cpu_data()
     cpu_bar = create_bar(cpu_data["cpu_load"])
-    print(f"CPU Usage: [{cpu_bar}] {float(cpu_data['cpu_load']):.1f}%")
+    print(f"CPU Usage: [{cpu_bar}] {float(cpu_data['cpu_load']):.1f}")
     print(f"CPU Frequency: {cpu_data['cpu_freq']:.1f} MHz")
 
 

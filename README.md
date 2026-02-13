@@ -4,7 +4,10 @@ A lightweight terminal resource monitor written in Python.
 
 ## Installation
 
-This app was written in Python 3.14.2, so you should consider this the official minimum version, but it should be fine running it with slightly older Python 3 versions back to 3.9.
+### Requirements
+
+- Python 3.9+
+- NVIDIA GPU with nvidia-smi installed
 
 ### Using pipx (recommended)
 
@@ -30,14 +33,12 @@ Run the app from command prompt or powershell using:
 resource-monitor
 ```
 
-You can also include the following optional arguments to configure the app to your liking:
-
 ## Args
 
 Examples:
 
 ```bash
-resource-monitor
+resource-monitor # Uses all defaults in the table below
 resource-monitor --ri 5
 resource-monitor --refresh-interval 2
 ```

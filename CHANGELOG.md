@@ -1,8 +1,4 @@
-## [1.1.1] - 2026-02-13
-
-### Added
-- Added README.md 
+## [1.1.2] - 2026-02-13
 
 ### Changed
-- Renamed app in pyproject.toml to match repository name.
-git git
+- Actually corrected all previous changes. I'm sitting getting used to git :) 

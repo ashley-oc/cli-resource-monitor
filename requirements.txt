@@ -1,1 +1,20 @@
+certifi==2026.1.4
+charset-normalizer==3.4.4
+colorama==0.4.6
+docopt==0.6.2
+idna==3.11
+iniconfig==2.3.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+packaging==26.0
+pipreqs==0.4.13
+pluggy==1.6.0
+-e git+https://github.com/ashley-oc/cli-resource-monitor.git@c2c03c9586f1a5e43867a976b9b7a7b28eb15b00#egg=process_monitor
 psutil==7.2.2
+Pygments==2.19.2
+pytest==9.0.2
+requests==2.32.5
+rich==14.3.2
+six==1.17.0
+urllib3==2.6.3
+yarg==0.1.10

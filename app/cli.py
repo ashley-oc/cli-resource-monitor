@@ -5,7 +5,7 @@ import time
 from app.ui.display import render_display
 
 
-def parse_args():
+def parse_args(args=None) -> argparse.Namespace: #  args=None is there purely to allow for testing.
     parser = argparse.ArgumentParser(prog="monitor")
     parser.add_argument(
         "--refresh-interval",
@@ -14,10 +14,11 @@ def parse_args():
         default=1,
         help="Refresh interval in seconds (default: 1)"
     )
-    return parser.parse_args()
+    return parser.parse_args(args)
 
 
 def main():
+    #  Clear the screen before starting to clean the display.
     os.system("cls")
     args = parse_args()
     while True:

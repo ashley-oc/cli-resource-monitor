@@ -11,5 +11,10 @@ dependencies = [
     "psutil"
 ]
 
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
 [project.scripts]
 resource-monitor = "app.cli:main"

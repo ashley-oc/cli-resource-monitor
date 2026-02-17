@@ -1,7 +1,7 @@
 import subprocess
 
 
-def get_gpu_data():
+def get_gpu_data() -> dict:
     '''
     Uses subprocess to call nvidia-smi and retrieve the following GPU statistics:
      - VRAM usage (used and total),

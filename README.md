@@ -33,6 +33,8 @@ Run the app from command prompt or powershell using:
 resource-monitor
 ```
 
+You can exit by pressing CTRL+C or just close the command prompt window.
+
 ## Args
 
 Examples:

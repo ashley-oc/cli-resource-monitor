@@ -1,4 +1,8 @@
-## [1.1.2] - 2026-02-13
+## New [v1.2.0] - 17/02/2026
+## Old [v1.1.2]
+
+### Added
+- Added Unit Tests.
 
 ### Changed
-- Actually corrected all previous changes. I'm sitting getting used to git :) 
+- Minor changes in code to enable Unit Testing.
